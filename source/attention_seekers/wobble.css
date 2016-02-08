@@ -1,6 +1,6 @@
 /* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
 
-@keyframes wobble {
+@keyframes HW_wobble {
   from {
     transform: none;
   }
@@ -30,6 +30,6 @@
   }
 }
 
-.wobble {
-  animation-name: wobble;
+.HW_wobble {
+  animation-name: HW_wobble;
 }

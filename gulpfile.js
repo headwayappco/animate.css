@@ -20,7 +20,7 @@ var activatedAnimations = activateAnimations();
 // Task options
 var opts = {
   destPath: './',
-  concatName: 'animate.css',
+  concatName: 'headway-animate.css',
 
   autoprefixer: {
     browsers: ['last 2 versions'],
@@ -48,7 +48,7 @@ var opts = {
 // ----------------------------
 
 gulp.task('default', function() {
-  runSequence('createCSS', 'addHeader');
+  runSequence('createCSS');
 });
 
 gulp.task('createCSS', function() {

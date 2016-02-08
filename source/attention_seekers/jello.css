@@ -1,4 +1,4 @@
-@keyframes jello {
+@keyframes HW_jello {
   from, 11.1%, to {
     transform: none;
   }
@@ -32,7 +32,7 @@
   }
 }
 
-.jello {
-  animation-name: jello;
+.HW_jello {
+  animation-name: HW_jello;
   transform-origin: center;
 }

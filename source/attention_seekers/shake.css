@@ -1,4 +1,4 @@
-@keyframes shake {
+@keyframes HW_shake {
   from, to {
     transform: translate3d(0, 0, 0);
   }
@@ -12,6 +12,6 @@
   }
 }
 
-.shake {
-  animation-name: shake;
+.HW_shake {
+  animation-name: HW_shake;
 }
